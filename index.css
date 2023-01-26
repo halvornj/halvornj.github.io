@@ -12,11 +12,20 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1.5fr 1fr 8fr;
-  grid-template-areas: "header" "menu" "content";
   background-color: #f0f0f0;
 }
 #header {
-  padding: 10px;
+  color: green;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 100%;
+}
+#title {
+  color: red;
+}
+#external-icons,
+img {
+  height: 50%;
 }
 #menu {
 }
