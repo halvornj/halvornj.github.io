@@ -1,3 +1,6 @@
+:root {
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,17 +20,22 @@ body {
 #header {
   color: green;
   display: grid;
-  grid-template-columns: 7fr 3fr;
-  grid-template-rows: 100%;
+  grid-row: 1/2;
+  grid-column: 1 /2;
+  grid-template-columns: subgrid;
 }
 #title {
-  color: red;
 }
 #external-icons,
 img {
-  height: 50%;
+  height: 5%;
+  padding: 5px;
 }
 #menu {
+  grid-row: 2/3;
+  grid-column: 1/2;
 }
 #content {
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
