@@ -1,5 +1,25 @@
 <head>
-  <style></style>
+  <style>
+    * {
+      padding: none;
+      margin: none;
+    }
+    body {
+      display: inline-flexbox;
+    }
+    svg {
+      position: relative;
+    }
+    #mail {
+      justify-self: start;
+    }
+    #github {
+      justify-self: center;
+    }
+    #linkedin {
+      justify-self: end;
+    }
+  </style>
 </head>
 <body>
   <a href="mailto: halvor@njastad.no">
@@ -7,7 +27,7 @@
       x="0px"
       y="0px"
       version="1.1"
-      id="_x32_"
+      id="mail"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xml:space="preserve"
@@ -34,8 +54,10 @@
       />
     </svg>
   </a>
+
   <a href="https://github.com/halvornj" target="_top">
     <svg
+      id="github"
       x="0px"
       y="0px"
       xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +76,7 @@
 
   <a href="https://www.linkedin.com/in/halvornj" target="_top">
     <svg
+      id="linkedin"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
