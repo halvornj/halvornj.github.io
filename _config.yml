@@ -40,6 +40,11 @@ lunr:
 
 #SEO
 google_site_verification: "xdR_XfVxwMH-PtFQosaWbQNB0lHLQ4IehJX7GuVEE5I"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-4XFJE89BVK"
+    anonymize_ip: false
 plugins:
   - jekyll-feed
   - jekyll-include-cache
