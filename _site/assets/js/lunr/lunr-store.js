@@ -4,4 +4,7 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/welcome-to-jekyll/",
         "teaser": null
-      },,]
+      },,{
+    "title": "Contact",
+    "excerpt":"   phone: (+47)916 10 215   mail: halvor@njastad.no   LinkedIn: LinkedIn.com/in/halvornj   github: github.com/halvornj  ","url": "http://localhost:4000/contact/"
+  }]
