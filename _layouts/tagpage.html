@@ -1,0 +1,17 @@
+---
+layout: single
+---
+
+<h2>{{ page.tag }}</h2>
+<ul>
+  <p>{{page}}</p>
+  <p>{{page.posts}}</p>
+  {% for project in page.projects %}
+  <li>
+    <a href="{{ post.url }}">{{ project.title }}</a> ({{ project.date |
+    date_to_string }} | Tags: {{ project | tags }})
+  </li>
+  {% endfor %}
+</ul>
+
+<div id="tag-cloud">{{ site | tag_cloud }}</div>

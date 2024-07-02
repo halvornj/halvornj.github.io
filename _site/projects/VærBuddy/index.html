@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Olsalget - Njastad</title>
-<meta name="description" content="olalget.no - the primary function">
+<!-- begin _includes/seo.html --><title>værbuddy - Njastad</title>
+<meta name="description" content="intro">
 
 
   <meta name="author" content="Halvor Njåstad">
@@ -23,26 +23,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Njastad">
-<meta property="og:title" content="Olsalget">
-<meta property="og:url" content="http://localhost:4000/projects/2023-12-23-olsalget/">
+<meta property="og:title" content="værbuddy">
+<meta property="og:url" content="http://localhost:4000/projects/V%C3%A6rBuddy/">
 
 
-  <meta property="og:description" content="olalget.no - the primary function">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2023-12-23T11:00:00+01:00">
+  <meta property="og:description" content="intro">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/projects/2023-12-23-olsalget/">
+
+  <meta property="article:published_time" content="2024-05-16T00:00:00+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/projects/V%C3%A6rBuddy/">
 
 
 
@@ -177,7 +177,7 @@
     
       
       
-        <li class="current">Olsalget</li>
+        <li class="current">værbuddy</li>
       
     
   </ol>
@@ -303,16 +303,16 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Olsalget">
-    <meta itemprop="description" content="olalget.no - the primary function">
-    <meta itemprop="datePublished" content="2023-12-23T11:00:00+01:00">
+    <meta itemprop="headline" content="værbuddy">
+    <meta itemprop="description" content="intro">
+    <meta itemprop="datePublished" content="2024-05-16T00:00:00+02:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/projects/2023-12-23-olsalget/" itemprop="url">Olsalget
+            <a href="http://localhost:4000/projects/V%C3%A6rBuddy/" itemprop="url">værbuddy
 </a>
           </h1>
           
@@ -323,7 +323,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2023-12-23T11:00:00+01:00">December 23, 2023</time>
+        <time datetime="2024-05-16T00:00:00+02:00">May 16, 2024</time>
       </span>
     
 
@@ -336,7 +336,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          less than 1 minute read
         
       </span>
     
@@ -351,25 +351,28 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#olalgetno---the-primary-function">olalget.no - the primary function</a></li><li><a href="#vinmonopolet---expansion">vinmonopolet - expansion</a></li></ul>
+              <ul class="toc__menu"><li><a href="#intro">intro</a><ul><li><a href="#in2000">IN2000</a></li></ul></li></ul>
             </nav>
           </aside>
         
-        <h5 id="olalgetno---the-primary-function">olalget.no - the primary function</h5>
+        <h4 id="intro">intro</h4>
 
-<p>This site is available at <a href="https://olsalget.no" target="\_blank">olsalget.no</a>, and the source code is available <em>(under the apache-2.0 license)</em> <a href="https://github.com/halvornj/olsalget" target="\_blank">here</a>. It was made in collaboration with <a href="https://github.com/RubenBjorkoy" target="\_blank">Ruben Vega Bjørkøy</a></p>
+<p>værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course.</p>
 
-<p>A centralized, easy to use, website for viewing sales times of alcoholic beverages under 4,5% in Norway. There were no easy way to find out when one could purchase beer in a given municipality in Norway as any municipality can change this time, based on the law’s restrictions, and most google searches only returns the times for biggest cities of Norway. Now, all municipalities can be checked through a simple site.</p>
+<h5 id="in2000">IN2000</h5>
 
-<p>Developing with static websites has its complications, most notably when requiring a backend solution. The workaround so far has been storing read only JSON files locally and accessing them as needed. As the largest JSON file was “only” 130kb, an average Norwegian end user should have no problem accessing the files, and initializing all API-endpoints within the 2 seconds required to keep engagement. Every API-endpoint has a JSON solution backup in case an API fails like in December, 2023 where an API had an unexpected update to the endpoint structure, causing the site to be unable to retrieve holiday status for the current day, and in turn be unable to retrieve selling times for alcoholic beverages under 4,5% that Christmas season.</p>
+<p><a href="https://www.uio.no/studier/emner/matnat/ifi/IN2000/">IN2000</a> is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!), and makes up 20 study points <em>(if you don’t know what those are - basically, a full time student takes 30 points worth of courses)</em>.</p>
 
-<h5 id="vinmonopolet---expansion">vinmonopolet - expansion</h5>
+<p>You can get a full picture of the requirements of the course and project at the university website, but here’s my summary:
+A team of 6 strangers have to develop an Android-app, using some spesific Api-s from the universitys <strong>institute of meteorology</strong>. There are some given cases, and a couple of restrictions about language, tools and such. here are some of the criteria we had to meet:</p>
 
-<p>The website also has a similar feature for checking the opening hours of your closest <em>vinmonopolet</em>-stores. This was a lot easier to implement, as they offer this information as an api. This allowed for complexity in a different aspect, where a local java program is run periodically to update a read-only JSON-record hosted in the same way as the first part of the website. We believed this was a fair way to cut down users load time as they only had to load the Location and opening hours of each store from us, instead of extraneous information from the api every time. Essentially we are caching the opening hours (regular <strong>and</strong> holiday), on the assumption that they don’t change suddenly.</p>
-
-<blockquote>
-  <p>You should note that this information <strong>is</strong> offered by vinmonopolet both on their website and app. We simply thought it an ideal way to expand the website with relevant functionality.</p>
-</blockquote>
+<ul>
+  <li>git and github had to be used.</li>
+  <li>Agile software development - Scrum, Kanban or a mix</li>
+  <li>
+    <h2 id="using-kotlin-and-jetpack-compose-others-could-be-used-but-the-course-strongly-reccomends-these">Using kotlin and Jetpack Compose (others could be used, but the course <strong>strongly</strong> reccomends these)</h2>
+  </li>
+</ul>
 
         
       </section>
@@ -381,7 +384,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-12-23T11:00:00+01:00">December 23, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-05-16T00:00:00+02:00">May 16, 2024</time></p>
 
       </footer>
 
@@ -390,10 +393,11 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/projects/2023-12-23-olsalget/" class="pagination--pager" title="Olsalget
+">Previous</a>
     
     
-      <a href="/projects/V%C3%A6rBuddy/" class="pagination--pager" title="værbuddy
+      <a href="/projects/2024-06-30-portfolio-site/" class="pagination--pager" title="Portfolio site
 ">Next</a>
     
   </nav>

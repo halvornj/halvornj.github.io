@@ -7,13 +7,19 @@ var store = [{
       },{
         "title": "Olsalget",
         "excerpt":"olalget.no - the primary function This site is available at olsalget.no, and the source code is available (under the apache-2.0 license) here. It was made in collaboration with Ruben Vega Bjørkøy A centralized, easy to use, website for viewing sales times of alcoholic beverages under 4,5% in Norway. There were...","categories": [],
-        "tags": ["Application-Programming-Interfaces","JavaScript","Git","Collaborative-Problem-Solving","Creative-Problem-Solving","Web-Development"],
+        "tags": [],
         "url": "/projects/2023-12-23-olsalget/",
+        "teaser": null
+      },{
+        "title": "værbuddy",
+        "excerpt":"intro værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. IN2000 IN2000 is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!), and makes up 20 study...","categories": [],
+        "tags": [],
+        "url": "/projects/V%C3%A6rBuddy/",
         "teaser": null
       },{
         "title": "Portfolio site",
         "excerpt":"work in progress, i guess  ","categories": [],
-        "tags": [],
+        "tags": ["Web-Development","jekyll"],
         "url": "/projects/2024-06-30-portfolio-site/",
         "teaser": null
       },{
