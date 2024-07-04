@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "værbuddy",
-        "excerpt":"intro værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. IN2000 IN2000 is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!), and makes up 20 study...","categories": [],
+        "excerpt":"værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here IN2000 IN2000 is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!),...","categories": [],
         "tags": [],
         "url": "/projects/V%C3%A6rBuddy/",
         "teaser": null
@@ -25,6 +25,9 @@ var store = [{
       },{
     "title": "Contact",
     "excerpt":"   phone: (+47)916 10 215   mail: halvor@njastad.no   LinkedIn: LinkedIn.com/in/halvornj   github: github.com/halvornj  ","url": "http://localhost:4000/contact/"
+  },{
+    "title": "Halvor Njåstad",
+    "excerpt":"About  ","url": "http://localhost:4000/"
   },{
     "title": "Projects",
     "excerpt":" ","url": "http://localhost:4000/projects/"

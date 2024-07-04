@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>værbuddy - Njastad</title>
-<meta name="description" content="intro">
+<meta name="description" content="værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here">
 
 
   <meta name="author" content="Halvor Njåstad">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="http://localhost:4000/projects/V%C3%A6rBuddy/">
 
 
-  <meta property="og:description" content="intro">
+  <meta property="og:description" content="værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here">
 
 
 
@@ -304,7 +304,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="værbuddy">
-    <meta itemprop="description" content="intro">
+    <meta itemprop="description" content="værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here">
     <meta itemprop="datePublished" content="2024-05-16T00:00:00+02:00">
     
 
@@ -336,7 +336,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     
@@ -351,17 +351,15 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#intro">intro</a><ul><li><a href="#in2000">IN2000</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#in2000">IN2000</a></li><li><a href="#the-app">The app</a></li></ul>
             </nav>
           </aside>
         
-        <h4 id="intro">intro</h4>
+        <p>værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation <a href="https://github.com/sanderrasmussen/team-24">here</a></p>
 
-<p>værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course.</p>
+<h4 id="in2000">IN2000</h4>
 
-<h5 id="in2000">IN2000</h5>
-
-<p><a href="https://www.uio.no/studier/emner/matnat/ifi/IN2000/">IN2000</a> is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!), and makes up 20 study points <em>(if you don’t know what those are - basically, a full time student takes 30 points worth of courses)</em>.</p>
+<p><a href="https://www.uio.no/studier/emner/matnat/ifi/IN2000/">IN2000</a> is a course at the University of Oslo. This course is mandatory for students studying computer science (such as me!), and makes up 20 study points <em>(if you don’t know what those are - basically, in norway a full time student takes 30 points worth of courses per semester)</em>.</p>
 
 <p>You can get a full picture of the requirements of the course and project at the university website, but here’s my summary:
 A team of 6 strangers have to develop an Android-app, using some spesific Api-s from the universitys <strong>institute of meteorology</strong>. There are some given cases, and a couple of restrictions about language, tools and such. here are some of the criteria we had to meet:</p>
@@ -369,10 +367,28 @@ A team of 6 strangers have to develop an Android-app, using some spesific Api-s 
 <ul>
   <li>git and github had to be used.</li>
   <li>Agile software development - Scrum, Kanban or a mix</li>
+  <li>Using Kotlin and Jetpack Compose (others could be used, but the course <strong>strongly</strong> reccomends these)</li>
+  <li>Interviews with the target audience</li>
   <li>
-    <h2 id="using-kotlin-and-jetpack-compose-others-could-be-used-but-the-course-strongly-reccomends-these">Using kotlin and Jetpack Compose (others could be used, but the course <strong>strongly</strong> reccomends these)</h2>
+    <p>apis from the institute of meteorology (case spesific):</p>
+
+    <ul>
+      <li><a href="https://api.met.no/weatherapi/metalerts/2.0/documentation">metalerts</a></li>
+      <li><a href="https://api.met.no/weatherapi/metalerts/2.0/documentation">locationforecast</a></li>
+    </ul>
   </li>
 </ul>
+
+<p>Now, to our spesific case(<a href="https://in2000.met.no/2024/3-yngre.html">available here if they don’t take it down</a>):
+<strong>weather- and danger alerts for younger users.</strong>
+the tl-dr of the case is basically this; Young people under the age of 25 aren’t using the Institute of Meteorology’s weather app, <a href="https://www.yr.no">yr</a>, and this is a problem because other international or third-party weather apps don’t neccesarily have all the weather alerts for dangers like snowstorms, extreme rain, forestfire etc.
+So, our task was to interview people in the demographic to see what would make them use a weather app provided by MET, and then develop such an app.</p>
+
+<p><img src="/assets/images/vaerbuddy/vaerbuddy-survey.png" alt="a survey depicting reasons the demographic doesn't use yr" title="survey results" /></p>
+
+<h4 id="the-app">The app</h4>
+
+<p>If you know norwegian you know what the most prominent response above is <em>“A game version”</em>, so that’s what we did.</p>
 
         
       </section>
