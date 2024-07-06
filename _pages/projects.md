@@ -1,5 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
-layout: home
+layout: collection
+collection: projects
+sort_order: reverse
 ---
