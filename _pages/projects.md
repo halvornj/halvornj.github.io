@@ -1,6 +1,5 @@
 ---
 title: Projects
 permalink: /projects/
-layout: collection
-collection: projects
+layout: home
 ---
