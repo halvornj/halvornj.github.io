@@ -1,5 +1,6 @@
 ---
 title: Olsalget
+priority: 2
 date: 2023-12-23 12:00:00 +0200
 #tags: Application-Programming-Interfaces JavaScript Git Collaborative-Problem-Solving Creative-Problem-Solving Web-Development
 toc: true

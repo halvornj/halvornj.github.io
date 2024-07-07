@@ -3,5 +3,5 @@ title: Projects
 permalink: /projects/
 layout: collection
 collection: projects
-sort_order: reverse
+sort_by: priority
 ---

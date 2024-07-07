@@ -2,19 +2,19 @@ var store = [{
         "title": "Olsalget",
         "excerpt":"olsalget.no - the primary function This site is available at olsalget.no, and the source code is available (under the apache-2.0 license) here. It was made in collaboration with Ruben Vega Bjørkøy A centralized, easy to use, website for viewing sales times of alcoholic beverages under 4,5% in Norway. There were...","categories": [],
         "tags": [],
-        "url": "/projects/2023-12-23-olsalget/",
-        "teaser": null
-      },{
-        "title": "værbuddy",
-        "excerpt":"værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here IN2000 What is IN2000 IN2000 is a course at the University of Oslo. It’s full title is actually Software Engineering with Project....","categories": [],
-        "tags": [],
-        "url": "/projects/2024-05-16-V%C3%A6rBuddy/",
+        "url": "/projects/olsalget/",
         "teaser": null
       },{
         "title": "Portfolio site",
-        "excerpt":"work in progress, i guess  ","categories": [],
+        "excerpt":"So, this is the website you’re viewing right now. I’ve put some effort into this, so I’m listing it as one of the less important projects. Anything interresting about this jekyll site? well, for starters, I’m not just using your cookie-cutter _posts here, I’ve implemented a collection of _projects, a...","categories": [],
         "tags": [],
-        "url": "/projects/2024-06-30-portfolio-site/",
+        "url": "/projects/portfolio-site/",
+        "teaser": null
+      },{
+        "title": "værbuddy",
+        "excerpt":"værbuddy is the result of a 3 month software development project, made by 6 students as a project for a university course. Source code and further documentation here. IN2000 What is IN2000 IN2000 is a course at the University of Oslo. It’s full title is actually Software Engineering with Project....","categories": [],
+        "tags": [],
+        "url": "/projects/vaerbuddy/",
         "teaser": null
       },{
     "title": "Contact",
