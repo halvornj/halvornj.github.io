@@ -1,4 +1,10 @@
 var store = [{
+        "title": "UDP network directory service in C",
+        "excerpt":"source code available for viewing here. why Well, it was a university assignment. Actually, this was a multi-week home exam for the course IN2140. what the assignment consists of 2 parts/layers: layer 1 This is responsible for creating the socket and identifying the peer, and sending and recieving arbitrary data...","categories": [],
+        "tags": [],
+        "url": "/projects/UDP_directory_service_in_C/",
+        "teaser": null
+      },{
         "title": "Olsalget",
         "excerpt":"olsalget.no - the primary function This site is available at olsalget.no, and the source code is available (under the apache-2.0 license) here. It was made in collaboration with Ruben Vega Bjørkøy A centralized, easy to use, website for viewing sales times of alcoholic beverages under 4,5% in Norway. There were...","categories": [],
         "tags": [],
