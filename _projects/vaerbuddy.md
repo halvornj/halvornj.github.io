@@ -20,7 +20,7 @@ A team of 6 strangers have to develop an Android-app, using some spesific Api-s 
 
 - git and github had to be used.
 - Agile software development - Scrum, Kanban or a mix
-- Using Kotlin and Jetpack Compose (others could be used, but the course **strongly** reccomends these)
+- Using Kotlin and Jetpack Compose (others could be used, but the course **strongly** recommends these)
 - Interviews with the target audience
 - apis from the institute of meteorology (case spesific):
   - [metalerts](https://api.met.no/weatherapi/metalerts/2.0/documentation){:target="\_blank"}
