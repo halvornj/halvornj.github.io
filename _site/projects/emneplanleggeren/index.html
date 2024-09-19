@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Olsalget - Njastad</title>
-<meta name="description" content="olsalget.no - the primary function">
+<!-- begin _includes/seo.html --><title>Emneplanleggeren - Njastad</title>
+<meta name="description" content="a planning tool for students, to help choose courses and study groups.">
 
 
   <meta name="author" content="Halvor Njåstad">
@@ -23,26 +23,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Njastad">
-<meta property="og:title" content="Olsalget">
-<meta property="og:url" content="http://localhost:4000/projects/olsalget/">
+<meta property="og:title" content="Emneplanleggeren">
+<meta property="og:url" content="http://localhost:4000/projects/emneplanleggeren/">
 
 
-  <meta property="og:description" content="olsalget.no - the primary function">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2023-12-23T11:00:00+01:00">
+  <meta property="og:description" content="a planning tool for students, to help choose courses and study groups.">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/projects/olsalget/">
+
+  <meta property="article:published_time" content="2024-08-20T12:00:00+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/projects/emneplanleggeren/">
 
 
 
@@ -175,7 +175,7 @@
     
       
       
-        <li class="current">Olsalget</li>
+        <li class="current">Emneplanleggeren</li>
       
     
   </ol>
@@ -301,16 +301,16 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Olsalget">
-    <meta itemprop="description" content="olsalget.no - the primary function">
-    <meta itemprop="datePublished" content="2023-12-23T11:00:00+01:00">
+    <meta itemprop="headline" content="Emneplanleggeren">
+    <meta itemprop="description" content="a planning tool for students, to help choose courses and study groups.">
+    <meta itemprop="datePublished" content="2024-08-20T12:00:00+02:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/projects/olsalget/" itemprop="url">Olsalget
+            <a href="http://localhost:4000/projects/emneplanleggeren/" itemprop="url">Emneplanleggeren
 </a>
           </h1>
           
@@ -321,7 +321,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2023-12-23T11:00:00+01:00">December 23, 2023</time>
+        <time datetime="2024-08-20T12:00:00+02:00">August 20, 2024</time>
       </span>
     
 
@@ -349,25 +349,35 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#olsalgetno---the-primary-function">olsalget.no - the primary function</a></li><li><a href="#vinmonopolet---expansion">vinmonopolet - expansion</a></li></ul>
+              <ul class="toc__menu"><li><a href="#a-planning-tool-for-students-to-help-choose-courses-and-study-groups">a planning tool for students, to help choose courses and study groups.</a><ul><li><a href="#what-it-does">what it does</a></li><li><a href="#why-it-does-it">why it does it</a></li><li><a href="#what-will-be-done">what will be done</a></li></ul></li></ul>
             </nav>
           </aside>
         
-        <h5 id="olsalgetno---the-primary-function">olsalget.no - the primary function</h5>
+        <h2 id="a-planning-tool-for-students-to-help-choose-courses-and-study-groups">a planning tool for students, to help choose courses and study groups.</h2>
 
-<p>This site is available at <a href="https://olsalget.no" target="\_blank">olsalget.no</a>, and the source code is available <em>(under the apache-2.0 license)</em> <a href="https://github.com/halvornj/olsalget" target="\_blank">here</a>. It was made in collaboration with <a href="https://github.com/RubenBjorkoy" target="\_blank">Ruben Vega Bjørkøy</a></p>
+<p><em><strong>this is a work in progress</strong></em></p>
 
-<p>A centralized, easy to use, website for viewing sales times of alcoholic beverages under 4,5% in Norway. There were no easy way to find out when one could purchase beer in a given municipality in Norway as any municipality can change this time, based on the law’s restrictions, and most google searches only returns the times for biggest cities of Norway. Now, all municipalities can be checked through a simple site.</p>
+<p>This site is available at <a href="https://www.emneplanleggeren.no" target="\_blank">emneplanleggeren.no</a>, and the source is available <a href="https://github.com/halvornj/Emneplanleggeren">here</a>.
+This site was made in collaboration with <a href="https://sanderrasmussen.com/" target="\_blank">Sander Rasmussen</a>.</p>
 
-<p>Developing with static websites has its complications, most notably when requiring a backend solution. The workaround so far has been storing read only JSON files locally and accessing them as needed. As the largest JSON file was “only” 130kb, an average Norwegian end user should have no problem accessing the files, and initializing all API-endpoints within the 2 seconds required to keep engagement. Every API-endpoint has a JSON solution backup in case an API fails like in December, 2023 where an API had an unexpected update to the endpoint structure, causing the site to be unable to retrieve holiday status for the current day, and in turn be unable to retrieve selling times for alcoholic beverages under 4,5% that Christmas season.</p>
+<h3 id="what-it-does">what it does</h3>
 
-<h5 id="vinmonopolet---expansion">vinmonopolet - expansion</h5>
+<p>A centralized, easy to use, website for viewing courses and study groups at UiO. The site is made to help students plan their semester, and to help them choose courses and study groups. The site allows anyone to select courses to view in the calendar window, and what study groups for those courses to show in the calendar. This gives the user a calendar view of the lectures, workshops and group lectures they have selected, and makes it easy to see when other groups for the same course have their lectures.</p>
 
-<p>The website also has a similar feature for checking the opening hours of your closest <em>vinmonopolet</em>-stores. This was a lot easier to implement, as they offer this information as an api. This allowed for complexity in a different aspect, where a local java program is run periodically to update a read-only JSON-record hosted in the same way as the first part of the website. We believed this was a fair way to cut down users load time as they only had to load the Location and opening hours of each store from us, instead of extraneous information from the api every time. Essentially we are caching the opening hours (regular <strong>and</strong> holiday), on the assumption that they don’t change suddenly.</p>
+<h3 id="why-it-does-it">why it does it</h3>
 
-<blockquote>
-  <p>You should note that this information <strong>is</strong> offered by vinmonopolet both on their website and app. We simply thought it an ideal way to expand the website with relevant functionality.</p>
-</blockquote>
+<p>For students at the University of Oslo, at least the ones I know at the Institute of Informatics, it is a hassle to plan your semester. You see, you typically have to sign up to a group lecture for each course. Actually, you have to select <em>three</em> groups, and arrange them according to which one you like the most. The problem is that with typically 3 courses, that’s 9 groups you have to make sure don’t collide with any lecture for any course, or any workshop. This becomes even more of a hassle when you have free choice of subjects, because now you have to make sure that the lectures for the courses you want to take don’t collide with each other. This is a problem that can be solved with a calendar, and that’s what this site does.<br />
+This is of course also information that you could easily obtain by searching the relevant course pages. But then, you’d have to waste time finding it, <strong>and crucially</strong>, keep the timeslots for 10-15 different events in your head while planning. Seeing as <em>keeping multiple different events organized by time</em> is what calendars are made for, we made the calendar.</p>
+
+<h3 id="what-will-be-done">what will be done</h3>
+
+<p>As teh top of this page says, <a href="https://www.emneplanleggeren.no" target="\_blank">emneplanleggeren.no</a> is a work in progress. At the time of writing, the MVP is done, and the site is live. The next steps are currently:</p>
+
+<ul>
+  <li>add more courses, expand beyond the Institute of Informatics</li>
+  <li>add more universities. NTNU may be the next one on the list, but we would have to do some research to see if this is even something they need.</li>
+  <li>UI upgrades. The site could do with some more advanced UI features, the current plan is to do some interviews/surveys to see what the users want.</li>
+</ul>
 
         
       </section>
@@ -379,29 +389,29 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-12-23T11:00:00+01:00">December 23, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-08-20T12:00:00+02:00">August 20, 2024</time></p>
 
       </footer>
 
       <section class="page__share">
   <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://twitter.com/intent/tweet?text=Olsalget%20http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Folsalget%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Emneplanleggeren%20http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Femneplanleggeren%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Folsalget%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Femneplanleggeren%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/olsalget/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/emneplanleggeren/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/projects/UDP_directory_service_in_C/" class="pagination--pager" title="UDP network directory service in C
+      <a href="/projects/olsalget/" class="pagination--pager" title="Olsalget
 ">Previous</a>
     
     
-      <a href="/projects/emneplanleggeren/" class="pagination--pager" title="Emneplanleggeren
+      <a href="/projects/portfolio-site/" class="pagination--pager" title="Portfolio site
 ">Next</a>
     
   </nav>

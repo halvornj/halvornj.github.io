@@ -11,6 +11,12 @@ var store = [{
         "url": "/projects/olsalget/",
         "teaser": null
       },{
+        "title": "Emneplanleggeren",
+        "excerpt":"a planning tool for students, to help choose courses and study groups. this is a work in progress This site is available at emneplanleggeren.no, and the source is available here. This site was made in collaboration with Sander Rasmussen. what it does A centralized, easy to use, website for viewing...","categories": [],
+        "tags": [],
+        "url": "/projects/emneplanleggeren/",
+        "teaser": null
+      },{
         "title": "Portfolio site",
         "excerpt":"So, this is the website you’re viewing right now. I’ve put some effort into this, so I’m listing it as one of the less important projects. Anything interresting about this jekyll site? well, for starters, I’m not just using your cookie-cutter _posts here, I’ve implemented a collection of _projects, a...","categories": [],
         "tags": [],

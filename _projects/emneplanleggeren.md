@@ -1,16 +1,14 @@
 ---
 title: Emneplanleggeren
-priority: 2
+priority: 3
 date: 2024-08-20 12:00:00 +0200
-#tags:
-toc: true
 ---
 
 ## a planning tool for students, to help choose courses and study groups.
 
 _**this is a work in progress**_
 
-This site is available at [emneplanleggeren.no](https://www.emneplanleggeren.no){:target="\_blank"}, and the source _will be available at a later point_.
+This site is available at [emneplanleggeren.no](https://www.emneplanleggeren.no){:target="\_blank"}, and the source is available [here](https://github.com/halvornj/Emneplanleggeren){:target="\_blank}.
 This site was made in collaboration with [Sander Rasmussen](https://sanderrasmussen.com/){:target="\_blank"}.
 
 ### what it does
