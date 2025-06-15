@@ -1,6 +1,6 @@
 ---
 title: Emneplanleggeren
-priority: 3
+priority: 4
 date: 2024-08-20 12:00:00 +0200
 ---
 
