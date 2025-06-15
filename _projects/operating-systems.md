@@ -6,8 +6,6 @@ date: 2025-06-11 11:00:00 +0200
 toc: true
 ---
 
-## Operating Systems
-
 This is a short writeup / summary of my experience gained in the course _"IN3000 - Operating Systems"_ at UiO.
 
 #### Surrounding The Course
