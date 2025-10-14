@@ -58,7 +58,7 @@ analytics:
 # Site Author
 author:
   name: "Halvor Njåstad"
-  avatar: "/assets/images/IMG_20240304_211604_819.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile_pictur.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Bachelors degree in computer science"
   location: "Oslo, Norway"
   email: halvor@njastad.no
